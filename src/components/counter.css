@@ -59,30 +59,35 @@
   border-radius: 4px
 }
 
-.btn svg {
-  display: block;
-  margin: auto;
-  width: 40px;
-  height: 40px;
-  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.25));
-}
-
 #inc {
-  background: #089C20;
+  background: url("./image/Plus.svg") no-repeat center;
+  background-position-x: 90%;
+  background-position-y: 80%;
+  background-color: #089C20;
 }
 
 #dec {
-  background: #E7AA10;
+  background: url("./image/Minus.svg") no-repeat center;
+  background-position-x: 90%;
+  background-position-y: 60%;
+  background-color: #E7AA10;
 }
 
 #res {
-  background: #CF1C1C;
+  background: url("./image/Reset.svg") no-repeat center;
+  background-position-x: 90%;
+  background-position-y: 70%;
+  background-color: #CF1C1C;
 }
 
 #dow {
-  background: #30D9CF;
+  background: url("./image/Download\ Icon.svg") no-repeat center;
+  background-position-x: 70%;
+  background-color: #30D9CF;
 }
 
 #up {
-  background: #9B0F9E;
+  background: url("./image/Upload\ Icon.svg") no-repeat center;
+  background-position-x: 70%;
+  background-color: #9B0F9E;
 }
